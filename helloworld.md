@@ -1,7 +1,10 @@
 # Tutorial on NodeJS Hello World on GCP
-
+<walkthrough-author name="Daniel King" tutorialName="NodeJS Hello World></walkthrough-author>
+<walkthrough-tutorial-duration duration=10></walkthrough-tutorial-duration>
+                                                     
 ## Deploying NodeJS Hello World
 We shall use the Google Cloud Functions to demonstrate how easy it is to get started with NodeJS and GCP.
+<walkthrough-project-setup></walkthrough-project-setup>
 
 ### Prerequisites
 
@@ -52,3 +55,6 @@ Thanks for completing this tutorial. I hope you enjoyed the power of the Google 
 ### Next Steps:
 
  - Check out more information on classes available [Google Cloud Classes](https://axalon.io/classes/) 
+
+
+
