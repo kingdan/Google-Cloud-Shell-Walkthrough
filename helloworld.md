@@ -1,5 +1,6 @@
 # Tutorial on NodeJS Hello World on GCP
-<walkthrough-author name="Daniel King" tutorialName="NodeJS Hello World"></walkthrough-author>
+<walkthrough-author name="Daniel King"></walkthrough-author>
+<walkthrough-author name=tutorialName="NodeJS Hello World"></walkthrough-author>
 <walkthrough-tutorial-duration duration=10></walkthrough-tutorial-duration>
                                                      
 ## Deploying NodeJS Hello World
@@ -15,27 +16,28 @@ We shall use the Google Cloud Functions to demonstrate how easy it is to get sta
 gcloud config set project {{project-id}}
 ```
 
-## Google Cloud Function deployment
+## Initialize npm
 
-Use the following `gcloud` commands to deploy our hello world application as shown below:
+Now, let us install the Node.js library for Google Natural Language API via the command given below:
 
 ```bash
-gcloud functions deploy hello-world --runtime nodejs8 --trigger-http --entry-point app
+npm init -y
 ```
+
 ## Use npm to install dependencies
 
 Now, let us install the Node.js library for Google Natural Language API via the command given below:
 
 ```bash
-npm install --save @google-cloud/language
+npm install --save express
 ```
 
 ## Source Code
 
 Let us go through the JavaScript file to understand the source code. 
 
-Click here: `walkthrough editor-open-file "Google-Cloud-Shell-Walkthrough/index.js" "Open index.js"`
-
+Click here: <walkthrough-editor-open-file filePath="Google-Cloud-Shell-Walkthrough/index.js"></walkthrough-editor-open-file>
+ 
 The code is taken from the official Github project present over [here](https://github.com/googleapis/nodejs-language).
 
 ## Run the application
@@ -49,6 +51,14 @@ node index.js
 ```
 
 You should see both a score and magnitude provided for the sentence. You can change the sentence in the code file and try the API again, if you like. 
+
+## Google Cloud Function deployment
+
+Use the following `gcloud` commands to deploy our hello world application as shown below:
+
+```bash
+gcloud functions deploy hello-world --runtime nodejs8 --trigger-http --entry-point app
+```
 
 ## Conclusion
 
