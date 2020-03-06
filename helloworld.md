@@ -1,38 +1,20 @@
-# Tutorial on Google Natural Language API
+# Tutorial on NodeJS Hello World on GCP
 
-## Google Natural Language API
-We shall use the Google Natural Language API to demonstrate how easy it is to get started with Sentiment Analysis. Keep in mind that Sentiment Analysis is just one of the capabilities that the Natural Language API has, in addition to detecting entities, Language Analysis and more. 
+## Deploying NodeJS Hello World
+We shall use the Google Cloud Functions to demonstrate how easy it is to get started with NodeJS and GCP.
 
 ### Prerequisites
 
  -  You have a Google Cloud Platform account and a Google Project (note the Google Project Id).
- -  You have enabled the Google Cloud Natural Language API for the above project. To do that, go to the Cloud Console, click on the main menu, then APIs and Services --> Library. Type in Natural Language API and select + enable it.
- -  You will also need a Service Account to invoke the Natural Language API from our own application. We shall do that in the next step.
+ -  You have enabled the Google Cloud Functions API for the above project. To do that, go to the Cloud Console, click on the main menu, then APIs and Services --> Library. Type in Cloud Functions API and select + enable it.
 
-## Service Account Creation
+## Google Cloud Function deployment
 
-First up, let's create an environment variable to store your Project Id. Please use the code snippet below to set the `PROJECT_ID` variable as given below:
-
-```bash
-export PROJECT_ID=<your_project_id>
-```
-
-Use the following `gcloud` commands to create a service account named `nlpapi-quickstart` as shown below:
+Use the following `gcloud` commands to deploy our hello world application as shown below:
 
 ```bash
-gcloud iam service-accounts create nlpapi-quickstart
+gcloud functions deploy hello-world --runtime nodejs8 --trigger-http --entry-point app
 ```
-Next up, we generate the service account JSON key that will get downloaded to your current folder as `key.json` file. 
-
-```bash
-gcloud iam service-accounts keys create key.json --iam-account nlpapi-quickstart@$PROJECT_ID.iam.gserviceaccount.com
-```
-Finally, we use the APPLICATION DEFAULT CREDENTIALS and set the variable as given below:
-
-```bash
-export GOOGLE_APPLICATION_CREDENTIALS=key.json
-```
-
 ## Use npm to install dependencies
 
 Now, let us install the Node.js library for Google Natural Language API via the command given below:
@@ -63,11 +45,10 @@ You should see both a score and magnitude provided for the sentence. You can cha
 
 ## Conclusion
 
-<walkthrough-conclusion-trophy>Congrats</walkthrough-conclusion-trophy>
+<walkthrough-conclusion-trophy></walkthrough-conclusion-trophy>
 
-Thanks for completing this tutorial. I hope you enjoyed the power of the Google Natural Language API.
+Thanks for completing this tutorial. I hope you enjoyed the power of the Google Cloud Functions API
 
 ### Next Steps:
 
- - Check out more information on [Google Cloud Natural Language API](https://cloud.google.com/natural-language/) 
- - [Natural Language API Basics](https://cloud.google.com/natural-language/docs/basics)
+ - Check out more information on classes available [Google Cloud Classes](https://axalon.io/classes/) 
