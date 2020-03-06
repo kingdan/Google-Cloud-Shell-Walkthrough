@@ -2,6 +2,8 @@
 <walkthrough-author name="Daniel King"></walkthrough-author>
 <walkthrough-author tutorialName="NodeJS Hello World"></walkthrough-author>
 <walkthrough-tutorial-duration duration=10></walkthrough-tutorial-duration>
+<walkthrough-footnote>Footnote text here</walkthrough-footnote>
+
                                                      
 ## Deploying NodeJS Hello World
 We shall use the Google Cloud Functions to demonstrate how easy it is to get started with NodeJS and GCP.
@@ -15,8 +17,8 @@ We shall use the Google Cloud Functions to demonstrate how easy it is to get sta
 ```bash
 gcloud config set project {{project-id}}
 ```
-
-## Initialize npm
+## Install NPM
+### Initialize npm
 
 Now, let us install the Node.js library for Google Natural Language API via the command given below:
 
@@ -24,7 +26,7 @@ Now, let us install the Node.js library for Google Natural Language API via the 
 npm init -y
 ```
 
-## Use npm to install dependencies
+### Use npm to install dependencies
 
 Now, let us install the Node.js library for Google Natural Language API via the command given below:
 
