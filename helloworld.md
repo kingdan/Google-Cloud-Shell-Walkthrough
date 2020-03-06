@@ -56,7 +56,9 @@ Run the `index.js` file via the command below:
 node index.js
 ```
 
-You should see both a score and magnitude provided for the sentence. You can change the sentence in the code file and try the API again, if you like. 
+<walkthrough-spotlight-pointer spotlightId=devshell-web-preview-button>Open the web page</walkthrough-spotlight-pointer>
+
+You should see a "Hello World from Google" web page.
 
 ## Google Cloud Function deployment
 
