@@ -45,7 +45,7 @@ npm install --save @google-cloud/language
 
 Let us go through the JavaScript file to understand the source code. 
 
-Click here: `walkthrough editor-open-file "Google-Cloud-Shell-Tutorial-Walkthrough/index.js" "Open index.js"`
+Click here: `walkthrough editor-open-file "Google-Cloud-Shell-Walkthrough/index.js" "Open index.js"`
 
 The code is taken from the official Github project present over [here](https://github.com/googleapis/nodejs-language).
 
