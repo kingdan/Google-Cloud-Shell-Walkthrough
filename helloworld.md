@@ -1,5 +1,5 @@
 # Tutorial on NodeJS Hello World on GCP
-<walkthrough-author name="Daniel King" tutorialName="NodeJS Hello World></walkthrough-author>
+<walkthrough-author name="Daniel King" tutorialName="NodeJS Hello World"></walkthrough-author>
 <walkthrough-tutorial-duration duration=10></walkthrough-tutorial-duration>
                                                      
 ## Deploying NodeJS Hello World
