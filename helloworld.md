@@ -39,9 +39,9 @@ npm install --save express
 
 Let us go through the JavaScript file to understand the source code. 
 
-Click here: <walkthrough-editor-open-file filePath=Google-Cloud-Shell-Walkthrough/index.js>Click</walkthrough-editor-open-file>
+Click here: <walkthrough-editor-open-file filePath="Google-Cloud-Shell-Walkthrough/index.js">Click</walkthrough-editor-open-file>
 
-<walkthrough-editor-select-line filePath=Google-Cloud-Shell-Walkthrough/index.js startLine=4 endline=7>wow</walkthrough-editor-select-line>
+<walkthrough-editor-select-line filePath="Google-Cloud-Shell-Walkthrough/index.js" startLine=4 endline=7>wow</walkthrough-editor-select-line>
 
 
 The code is taken from the official Express project present over [here](https://expressjs.com/en/starter/hello-world.html).
