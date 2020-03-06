@@ -1,6 +1,6 @@
 # Tutorial on NodeJS Hello World on GCP
-<walkthrough-author name="Daniel King"></walkthrough-author>
-<walkthrough-author tutorialName="NodeJS Hello World"></walkthrough-author>
+<walkthrough-author name="Daniel King">Author name</walkthrough-author>
+<walkthrough-author tutorialName="NodeJS Hello World">Tutorial name here</walkthrough-author>
 <walkthrough-tutorial-duration duration=10></walkthrough-tutorial-duration>
 <walkthrough-footnote>Footnote text here</walkthrough-footnote>
 
@@ -18,6 +18,7 @@ We shall use the Google Cloud Functions to demonstrate how easy it is to get sta
 gcloud config set project {{project-id}}
 ```
 ## Install NPM
+
 ### Initialize npm
 
 Now, let us install the Node.js library for Google Natural Language API via the command given below:
@@ -40,10 +41,10 @@ Let us go through the JavaScript file to understand the source code.
 
 Click here: <walkthrough-editor-open-file filePath="Google-Cloud-Shell-Walkthrough/index.js">Click</walkthrough-editor-open-file>
 
-<walkthrough-editor-select-line filePath=Google-Cloud-Shell-Walkthrough/index.js" startLine=4 endline=7></walkthrough-editor-select-line>
+<walkthrough-editor-select-line filePath="Google-Cloud-Shell-Walkthrough/index.js" startLine=4 endline=7></walkthrough-editor-select-line>
 
 
-The code is taken from the official Github project present over [here](https://github.com/googleapis/nodejs-language).
+The code is taken from the official Express project present over [here](https://expressjs.com/en/starter/hello-world.html).
 
 ## Run the application
 
