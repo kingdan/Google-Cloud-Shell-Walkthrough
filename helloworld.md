@@ -63,7 +63,7 @@ You should see both a score and magnitude provided for the sentence. You can cha
 
 ## Conclusion
 
-`walkthrough conclusion-trophy`
+<walkthrough-conclusion-trophy>Congrats</walkthrough-conclusion-trophy>
 
 Thanks for completing this tutorial. I hope you enjoyed the power of the Google Natural Language API.
 
