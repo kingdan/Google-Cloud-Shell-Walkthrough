@@ -11,6 +11,10 @@ We shall use the Google Cloud Functions to demonstrate how easy it is to get sta
  -  You have a Google Cloud Platform account and a Google Project (note the Google Project Id).
  -  You have enabled the Google Cloud Functions API for the above project. To do that, go to the Cloud Console, click on the main menu, then APIs and Services --> Library. Type in Cloud Functions API and select + enable it.
 
+```bash
+gcloud config set project {{project-id}}
+```
+
 ## Google Cloud Function deployment
 
 Use the following `gcloud` commands to deploy our hello world application as shown below:
