@@ -1,6 +1,6 @@
 # NodeJS Hello World GCP deployment demo
 
-This is a tutorial on deploying [Express "Hello World"](expressjs.com/en/starter/hello-world.html) to GCP.
+This is a tutorial on deploying [Express "Hello World"](https://expressjs.com/en/starter/hello-world.html) to GCP.
 
 To begin the tutorial, click on the button given below:
 
