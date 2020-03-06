@@ -1,6 +1,6 @@
 # Tutorial on NodeJS Hello World on GCP
 <walkthrough-author name="Daniel King"></walkthrough-author>
-<walkthrough-author name=tutorialName="NodeJS Hello World"></walkthrough-author>
+<walkthrough-author tutorialName="NodeJS Hello World"></walkthrough-author>
 <walkthrough-tutorial-duration duration=10></walkthrough-tutorial-duration>
                                                      
 ## Deploying NodeJS Hello World
@@ -36,8 +36,11 @@ npm install --save express
 
 Let us go through the JavaScript file to understand the source code. 
 
-Click here: <walkthrough-editor-open-file filePath="Google-Cloud-Shell-Walkthrough/index.js"></walkthrough-editor-open-file>
- 
+Click here: <walkthrough-editor-open-file filePath="Google-Cloud-Shell-Walkthrough/index.js">Click</walkthrough-editor-open-file>
+
+<walkthrough-editor-select-line filePath=Google-Cloud-Shell-Walkthrough/index.js" startLine=4 endline=7></walkthrough-editor-select-line>
+
+
 The code is taken from the official Github project present over [here](https://github.com/googleapis/nodejs-language).
 
 ## Run the application
