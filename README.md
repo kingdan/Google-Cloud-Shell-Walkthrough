@@ -1,9 +1,9 @@
-# Google-Cloud-Shell-Walkthrough
+# NodeJS Hello World GCP deployment demo
 
 
 Testing the Google Cloud Shell walkthrough feature
 
-This is a tutorial on [Google Cloud Natural Language API](cloud.google.com/natural-language) and how to use to the Sentiment Analysis feature of the API.
+This is a tutorial on deploying [Express "Hello World"](expressjs.com/en/starter/hello-world.html) to GCP.
 
 To begin the tutorial, click on the button given below:
 
