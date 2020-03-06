@@ -1,8 +1,5 @@
 # NodeJS Hello World GCP deployment demo
 
-
-Testing the Google Cloud Shell walkthrough feature
-
 This is a tutorial on deploying [Express "Hello World"](expressjs.com/en/starter/hello-world.html) to GCP.
 
 To begin the tutorial, click on the button given below:
